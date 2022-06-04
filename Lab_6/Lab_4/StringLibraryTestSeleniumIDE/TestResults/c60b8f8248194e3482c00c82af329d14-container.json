@@ -1,0 +1,44 @@
+{
+  "uuid": "4acd2126-95a9-43e5-ab05-b90b7f7602fd-tc-0-1032",
+  "name": "Lr7.EditSpecialtyTest.EditSpecialty(\"test3\")",
+  "children": [
+    "2b2d29be-7621-44ee-abe8-00a67318722e-tr-0-1035"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1653499907278,
+      "stop": 1653499907278
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1653499907278,
+      "stop": 1653499907278
+    }
+  ],
+  "links": [],
+  "start": 1653499894799,
+  "stop": 1653499907279
+}

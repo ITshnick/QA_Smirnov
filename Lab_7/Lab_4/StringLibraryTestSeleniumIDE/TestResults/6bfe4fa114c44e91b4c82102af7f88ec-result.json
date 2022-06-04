@@ -1,0 +1,104 @@
+{
+  "uuid": "a700c2f9-d6ef-42c3-973c-e15a143376e7-tr-0-1040",
+  "historyId": "Lr7.LoadPetTypesTest.LoadPetTypes",
+  "fullName": "Lr7.LoadPetTypesTest.LoadPetTypes",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr7"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoadPetTypes"
+    },
+    {
+      "name": "testClass",
+      "value": "LoadPetTypesTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "LoadPetTypes",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoadPetTypes"
+  },
+  "stage": "finished",
+  "description": "This test checks that pet types poage can be loaded successfully\n",
+  "steps": [
+    {
+      "name": "LoadPetTypes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653500012511,
+          "stop": 1653500012603
+        },
+        {
+          "name": "Get pet type page name",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653500012606,
+          "stop": 1653500012633
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "09be95bdf60149a19e58099c6b13c364-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653500004728,
+      "stop": 1653500012698
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653500004728,
+  "stop": 1653500012702
+}

@@ -1,0 +1,5 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+https://rest.sana-commerce.dev/petclinic/api/specialties,10,235,234,241,241,244,227,244,"0,000%","8,72600","142,62","3,42"
+https://rest.sana-commerce.dev/petclinic/api/specialties/31,10,40,41,42,42,42,39,42,"100,000%","10,49318","4,53","5,02"
+Test,10,275,275,283,283,286,266,286,"100,000%","8,40336","140,98","7,31"
+TOTAL,30,183,234,279,280,286,39,286,"66,667%","25,21008","281,96","14,62"

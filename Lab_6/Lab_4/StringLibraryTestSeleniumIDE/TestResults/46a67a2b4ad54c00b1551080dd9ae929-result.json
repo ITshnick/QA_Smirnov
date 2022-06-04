@@ -1,0 +1,144 @@
+{
+  "uuid": "36f87df8-c008-47e4-ba5d-46a64629a056-tr-0-1003",
+  "historyId": "Lr6.AddSpecialtyTest.AddSpecialty",
+  "fullName": "Lr6.AddSpecialtyTest.AddSpecialty",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr6"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddSpecialty"
+    },
+    {
+      "name": "testClass",
+      "value": "AddSpecialtyTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "AddSpecialty",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AddSpecialty"
+  },
+  "stage": "finished",
+  "description": "This test checks that specialty can be added successfully\n",
+  "steps": [
+    {
+      "name": "AddSpecialty",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496282040,
+          "stop": 1653496282164
+        },
+        {
+          "name": "Open specialty add form",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496282165,
+          "stop": 1653496282284
+        },
+        {
+          "name": "Add specialty",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test"
+            }
+          ],
+          "start": 1653496282284,
+          "stop": 1653496282477
+        },
+        {
+          "name": "Check is name correct",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test"
+            }
+          ],
+          "start": 1653496284489,
+          "stop": 1653496284529
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d4a1ccc225514f65b5842ee076942709-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653496272900,
+      "stop": 1653496284582
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653496272900,
+  "stop": 1653496284582
+}

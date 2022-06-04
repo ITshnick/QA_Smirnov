@@ -1,0 +1,97 @@
+{
+  "uuid": "207b4d92-5412-4bf7-bbc2-a7a25eeea5f5-tr-0-1003",
+  "historyId": "Lab_4.AddSpecialtyTest.AddSpecialty",
+  "fullName": "Lab_4.AddSpecialtyTest.AddSpecialty",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C9I6VLD"
+    },
+    {
+      "name": "testClass",
+      "value": "Lab_4.AddSpecialtyTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddSpecialty"
+    },
+    {
+      "name": "package",
+      "value": "Lab_4.AddSpecialtyTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "AddSpecialty",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Lab_4.AddSpecialtyTest.AddSpecialty() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Tests\\AddSpecialtyTest.cs:line 27\r\n"
+  },
+  "stage": "finished",
+  "description": "This test checks that specialty can be added successfully\n",
+  "steps": [
+    {
+      "name": "AddSpecialty",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Lab_4.AddSpecialtyTest.AddSpecialty() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Tests\\AddSpecialtyTest.cs:line 27\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1654206941905,
+          "stop": 1654206941979
+        }
+      ],
+      "attachments": [
+        {
+          "name": "AddSpecialty_screenshot_637898145426982499.png",
+          "source": "5278cbcb4dcb4a71a2b35e36064a3c11-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "189651c900a7457cb46783e618d275ab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1654206935965,
+      "stop": 1654206942900
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1654206935965,
+  "stop": 1654206942907
+}

@@ -1,0 +1,149 @@
+{
+  "uuid": "cb5cf634-7ecb-446c-8f11-50adc773aef4-tr-0-1016",
+  "historyId": "Lr7.CancelSpecialtyEditingTest.CancelSpecialtyEditing(\"test23\")",
+  "fullName": "Lr7.CancelSpecialtyEditingTest.CancelSpecialtyEditing(\"test23\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr7"
+    },
+    {
+      "name": "testMethod",
+      "value": "CancelSpecialtyEditing"
+    },
+    {
+      "name": "testClass",
+      "value": "CancelSpecialtyEditingTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "CancelSpecialtyEditing(\"test23\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CancelSpecialtyEditing(\"test23\")"
+  },
+  "stage": "finished",
+  "description": "This test checks that specialty editing can be canceled successfully\n",
+  "steps": [
+    {
+      "name": "CancelSpecialtyEditing(\"test23\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499652901,
+          "stop": 1653499653009
+        },
+        {
+          "name": "Open specialty edit page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499655017,
+          "stop": 1653499655156
+        },
+        {
+          "name": "Cancel specialty editing",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test23"
+            }
+          ],
+          "start": 1653499655156,
+          "stop": 1653499655358
+        },
+        {
+          "name": "Check is name correct",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test23"
+            }
+          ],
+          "start": 1653499657359,
+          "stop": 1653499657395
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "eefe1ee9d5ca4cefa4abec3aa36cdcdf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653499645795,
+      "stop": 1653499657448
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "test23"
+    }
+  ],
+  "start": 1653499645795,
+  "stop": 1653499657449
+}

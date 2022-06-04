@@ -1,0 +1,104 @@
+{
+  "uuid": "2fa58f1d-1bb3-446a-b127-ca303345e169-tr-0-1042",
+  "historyId": "Lr7.LoadSpecialtiesTest.LoadSpecialties",
+  "fullName": "Lr7.LoadSpecialtiesTest.LoadSpecialties",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr7"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoadSpecialties"
+    },
+    {
+      "name": "testClass",
+      "value": "LoadSpecialtiesTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "LoadSpecialties",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "LoadSpecialties"
+  },
+  "stage": "finished",
+  "description": "This test checks that specialties page can be loaded successfully\n",
+  "steps": [
+    {
+      "name": "LoadSpecialties",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653500064382,
+          "stop": 1653500064482
+        },
+        {
+          "name": "Get specialty page name",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653500064484,
+          "stop": 1653500064510
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a36c6f2f23b24080af2f092b01ff5a8d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653500056609,
+      "stop": 1653500064629
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653500056608,
+  "stop": 1653500064634
+}

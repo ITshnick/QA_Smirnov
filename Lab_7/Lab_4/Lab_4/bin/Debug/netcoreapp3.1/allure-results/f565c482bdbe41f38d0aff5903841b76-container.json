@@ -1,0 +1,44 @@
+{
+  "uuid": "576633b6-6447-478d-bc77-2d0784f76525-tc-0-1014",
+  "name": "Lab_4.LoadPetTypesTest.loadPetTypesTest",
+  "children": [
+    "d9f9681a-10b3-40e0-973c-3b1dfb608eea-tr-0-1015"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1654207250039,
+      "stop": 1654207250039
+    }
+  ],
+  "afters": [
+    {
+      "name": "Teardown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1654207250039,
+      "stop": 1654207250039
+    }
+  ],
+  "links": [],
+  "start": 1654207243915,
+  "stop": 1654207250087
+}

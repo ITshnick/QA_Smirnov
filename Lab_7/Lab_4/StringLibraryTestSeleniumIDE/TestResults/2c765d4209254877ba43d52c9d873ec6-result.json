@@ -1,0 +1,151 @@
+{
+  "uuid": "d4d7c430-4dd1-4a3a-ac0a-1f3325218ccf-tr-0-1022",
+  "historyId": "Lr7.DeletePetTypeTest.DeletePetType",
+  "fullName": "Lr7.DeletePetTypeTest.DeletePetType",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr7"
+    },
+    {
+      "name": "testMethod",
+      "value": "DeletePetType"
+    },
+    {
+      "name": "testClass",
+      "value": "DeletePetTypeTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "DeletePetType",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "DeletePetType"
+  },
+  "stage": "finished",
+  "description": "This test checks that pet type can be deleted successfully\n",
+  "steps": [
+    {
+      "name": "DeletePetType",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499753210,
+          "stop": 1653499753305
+        },
+        {
+          "name": "Delete pet type",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get pet types count",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1653499755313,
+              "stop": 1653499755332
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499755312,
+          "stop": 1653499755375
+        },
+        {
+          "name": "Check is count decreased",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get pet types count",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1653499757380,
+              "stop": 1653499757400
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499757380,
+          "stop": 1653499757400
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "66e068b1fb2c4abe86cf5a6e05e30b40-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653499746372,
+      "stop": 1653499757530
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653499746372,
+  "stop": 1653499757536
+}

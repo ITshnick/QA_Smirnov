@@ -1,0 +1,48 @@
+{
+  "uuid": "4b8f9c05-845a-464e-9ce1-186bb6da97c5-tc-0-1014",
+  "name": "Lab_4.LoadPetTypesTest.loadPetTypesTest",
+  "children": [
+    "cf394cc9-12d3-4f02-a2be-ea274786dd1e-tr-0-1015"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.\r\nTearDown : System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at Lab_4.Base.Setup() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 20\r\n--TearDown\r\n   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lab_4.Base.Teardown() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1654208010380,
+      "stop": 1654208010380
+    }
+  ],
+  "afters": [
+    {
+      "name": "Teardown",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.\r\nTearDown : System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at Lab_4.Base.Setup() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 20\r\n--TearDown\r\n   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lab_4.Base.Teardown() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1654208010380,
+      "stop": 1654208010380
+    }
+  ],
+  "links": [],
+  "start": 1654208010379,
+  "stop": 1654208010381
+}

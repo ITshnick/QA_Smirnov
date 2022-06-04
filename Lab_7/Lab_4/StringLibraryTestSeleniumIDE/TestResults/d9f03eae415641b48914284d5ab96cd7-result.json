@@ -1,0 +1,149 @@
+{
+  "uuid": "6628a913-19f6-41c1-ab19-8a933c6f790c-tr-0-1001",
+  "historyId": "Lr7.AddPetTypeTest.AddPetType(\"test1\")",
+  "fullName": "Lr7.AddPetTypeTest.AddPetType(\"test1\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr7"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddPetType"
+    },
+    {
+      "name": "testClass",
+      "value": "AddPetTypeTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "AddPetType(\"test1\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AddPetType(\"test1\")"
+  },
+  "stage": "finished",
+  "description": "This test checks that pet type can be added successfully\n",
+  "steps": [
+    {
+      "name": "AddPetType(\"test1\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499494261,
+          "stop": 1653499494358
+        },
+        {
+          "name": "Open pet type add form",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499496371,
+          "stop": 1653499496449
+        },
+        {
+          "name": "Add pet type",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test1"
+            }
+          ],
+          "start": 1653499496450,
+          "stop": 1653499496609
+        },
+        {
+          "name": "Check is name correct",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test1"
+            }
+          ],
+          "start": 1653499498618,
+          "stop": 1653499498662
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f122c934815a43e7b351ba0d578401fb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653499487071,
+      "stop": 1653499498728
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "test1"
+    }
+  ],
+  "start": 1653499487070,
+  "stop": 1653499498732
+}

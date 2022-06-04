@@ -1,0 +1,88 @@
+{
+  "uuid": "d9f9681a-10b3-40e0-973c-3b1dfb608eea-tr-0-1015",
+  "historyId": "Lab_4.LoadPetTypesTest.loadPetTypesTest",
+  "fullName": "Lab_4.LoadPetTypesTest.loadPetTypesTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C9I6VLD"
+    },
+    {
+      "name": "testClass",
+      "value": "Lab_4.LoadPetTypesTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "loadPetTypesTest"
+    },
+    {
+      "name": "package",
+      "value": "Lab_4.LoadPetTypesTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "loadPetTypesTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test checks that pet type can be added successfully\n",
+  "steps": [
+    {
+      "name": "loadPetTypesTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1654207249757,
+          "stop": 1654207249823
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "df9e8abd7d5441c79dfff23b15cda0c5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1654207243917,
+      "stop": 1654207250041
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1654207243917,
+  "stop": 1654207250048
+}

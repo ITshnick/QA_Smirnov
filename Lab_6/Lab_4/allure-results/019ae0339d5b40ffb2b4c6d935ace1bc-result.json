@@ -1,0 +1,119 @@
+{
+  "uuid": "8ba1b7fc-e5c1-4c11-800d-137ba0b323f2-tr-0-1019",
+  "historyId": "Lr6.ReturnToHomeFromSpecialtiesTest.ReturnToHomeFromSpecialties",
+  "fullName": "Lr6.ReturnToHomeFromSpecialtiesTest.ReturnToHomeFromSpecialties",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr6"
+    },
+    {
+      "name": "testMethod",
+      "value": "ReturnToHomeFromSpecialties"
+    },
+    {
+      "name": "testClass",
+      "value": "ReturnToHomeFromSpecialtiesTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "ReturnToHomeFromSpecialties",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ReturnToHomeFromSpecialties"
+  },
+  "stage": "finished",
+  "description": "This test checks that we can return from specialties page to home page\n",
+  "steps": [
+    {
+      "name": "ReturnToHomeFromSpecialties",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496370151,
+          "stop": 1653496370258
+        },
+        {
+          "name": "Return to home page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496370258,
+          "stop": 1653496370351
+        },
+        {
+          "name": "Get home page name",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496370351,
+          "stop": 1653496370374
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2c49b89b97424b5b80a82bb2bb545ee8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653496361992,
+      "stop": 1653496370479
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653496361992,
+  "stop": 1653496370479
+}

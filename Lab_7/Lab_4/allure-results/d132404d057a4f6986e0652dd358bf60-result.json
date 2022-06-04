@@ -1,0 +1,144 @@
+{
+  "uuid": "703e1a7f-927d-44ed-adf9-edb3e2e7a3d9-tr-0-1001",
+  "historyId": "Lr6.AddPetTypeTest.AddPetType",
+  "fullName": "Lr6.AddPetTypeTest.AddPetType",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr6"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddPetType"
+    },
+    {
+      "name": "testClass",
+      "value": "AddPetTypeTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "AddPetType",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "AddPetType"
+  },
+  "stage": "finished",
+  "description": "This test checks that pet type can be added successfully\n",
+  "steps": [
+    {
+      "name": "AddPetType",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496268064,
+          "stop": 1653496268347
+        },
+        {
+          "name": "Open pet type add form",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496270352,
+          "stop": 1653496270451
+        },
+        {
+          "name": "Add pet type",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test"
+            }
+          ],
+          "start": 1653496270451,
+          "stop": 1653496270682
+        },
+        {
+          "name": "Check is name correct",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test"
+            }
+          ],
+          "start": 1653496272695,
+          "stop": 1653496272748
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7c790ea104464696871db1d1dc832c3d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653496255550,
+      "stop": 1653496272823
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653496255550,
+  "stop": 1653496272832
+}

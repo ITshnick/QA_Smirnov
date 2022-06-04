@@ -1,0 +1,151 @@
+{
+  "uuid": "93c23e70-c190-4ca5-b00e-5c06617decef-tr-0-1009",
+  "historyId": "Lr6.DeleteSpecialtyTest.DeleteSpecialty",
+  "fullName": "Lr6.DeleteSpecialtyTest.DeleteSpecialty",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr6"
+    },
+    {
+      "name": "testMethod",
+      "value": "DeleteSpecialty"
+    },
+    {
+      "name": "testClass",
+      "value": "DeleteSpecialtyTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "DeleteSpecialty",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "DeleteSpecialty"
+  },
+  "stage": "finished",
+  "description": "This test checks that specialty can be deleted successfully\n",
+  "steps": [
+    {
+      "name": "DeleteSpecialty",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496317549,
+          "stop": 1653496317707
+        },
+        {
+          "name": "Delete specialty",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get specialties count",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1653496319721,
+              "stop": 1653496319738
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496319721,
+          "stop": 1653496319814
+        },
+        {
+          "name": "Check is count decreased",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Get specialties count",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1653496321829,
+              "stop": 1653496321839
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496321828,
+          "stop": 1653496321839
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a774217ba55143b69c26384d56c3f168-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653496309416,
+      "stop": 1653496321893
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653496309416,
+  "stop": 1653496321893
+}

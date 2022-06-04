@@ -1,0 +1,44 @@
+{
+  "uuid": "c18e0f5d-d176-4140-a0a8-7b080a347953-tc-0-1023",
+  "name": "Lr7.DeleteSpecialtyTest.DeleteSpecialty",
+  "children": [
+    "4ca46e2a-aef0-4016-b0b6-925b85ef9ae6-tr-0-1024"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1653499775853,
+      "stop": 1653499775853
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1653499775854,
+      "stop": 1653499775854
+    }
+  ],
+  "links": [],
+  "start": 1653499763708,
+  "stop": 1653499775876
+}

@@ -1,0 +1,88 @@
+{
+  "uuid": "8e78595e-0a7c-4a98-ab0e-d41e6ae11096-tr-0-1005",
+  "historyId": "Lab_4.CancelSpecialtyEditingTest.cancelSpecialtyEditingTest",
+  "fullName": "Lab_4.CancelSpecialtyEditingTest.cancelSpecialtyEditingTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C9I6VLD"
+    },
+    {
+      "name": "testClass",
+      "value": "Lab_4.CancelSpecialtyEditingTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "cancelSpecialtyEditingTest"
+    },
+    {
+      "name": "package",
+      "value": "Lab_4.CancelSpecialtyEditingTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "cancelSpecialtyEditingTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test checks that specialty can be added successfully\n",
+  "steps": [
+    {
+      "name": "cancelSpecialtyEditingTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1654207148118,
+          "stop": 1654207148188
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bf9caf7677b3449bb291c2c4ea650ecf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1654207142163,
+      "stop": 1654207148885
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1654207142162,
+  "stop": 1654207148890
+}

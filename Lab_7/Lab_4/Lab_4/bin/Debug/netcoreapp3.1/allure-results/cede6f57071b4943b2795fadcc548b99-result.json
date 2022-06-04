@@ -1,0 +1,97 @@
+{
+  "uuid": "9b040bfe-1a17-407f-8091-6e0dc3347bb4-tr-0-1001",
+  "historyId": "Lab_4.AddPetTypeTest.AddPetType",
+  "fullName": "Lab_4.AddPetTypeTest.AddPetType",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C9I6VLD"
+    },
+    {
+      "name": "testClass",
+      "value": "Lab_4.AddPetTypeTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddPetType"
+    },
+    {
+      "name": "package",
+      "value": "Lab_4.AddPetTypeTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "AddPetType",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr:last-child input\"}\n  (Session info: chrome=102.0.5005.63)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lab_4.PageObjects.PetTypesPageObjects.IsNameCorrect(String name) in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\PageObjects\\PetTypesPageObjects.cs:line 44\r\n   at Lab_4.AddPetTypeTest.AddPetType() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Tests\\AddPetTypeTest.cs:line 28"
+  },
+  "stage": "finished",
+  "description": "This test checks that pet type can be added successfully\n",
+  "steps": [
+    {
+      "name": "AddPetType",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"tr:last-child input\"}\n  (Session info: chrome=102.0.5005.63)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Lab_4.PageObjects.PetTypesPageObjects.IsNameCorrect(String name) in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\PageObjects\\PetTypesPageObjects.cs:line 44\r\n   at Lab_4.AddPetTypeTest.AddPetType() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Tests\\AddPetTypeTest.cs:line 28"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1654206811686,
+          "stop": 1654206811753
+        }
+      ],
+      "attachments": [
+        {
+          "name": "AddPetType_screenshot_637898144123730410.png",
+          "source": "18ed87fef4c7496b9bdac68ffd2287fc-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "db7db7ca6e88403b9fccdae2a690f1fc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1654206804265,
+      "stop": 1654206812579
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1654206804264,
+  "stop": 1654206812585
+}

@@ -1,0 +1,76 @@
+{
+  "uuid": "1a177d9d-2eb1-4c09-ad5f-eb2f362f0eaf-tr-0-1011",
+  "historyId": "Lab_4.EditPetTypeTest.editPetTypeTest",
+  "fullName": "Lab_4.EditPetTypeTest.editPetTypeTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C9I6VLD"
+    },
+    {
+      "name": "testClass",
+      "value": "Lab_4.EditPetTypeTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "editPetTypeTest"
+    },
+    {
+      "name": "package",
+      "value": "Lab_4.EditPetTypeTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "editPetTypeTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.\r\nTearDown : System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+    "trace": "   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at Lab_4.Base.Setup() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 20\r\n--TearDown\r\n   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lab_4.Base.Teardown() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 31"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\n\nTeardown TearDown method failed\nThis test checks that pet type can be added successfully\n",
+  "steps": [
+    {
+      "name": "editPetTypeTest skipped because of Setup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.\r\nTearDown : System.ObjectDisposedException : Cannot access a disposed object.\r\nObject name: 'System.Net.Http.HttpClient'.",
+        "trace": "   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at Lab_4.Base.Setup() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 20\r\n--TearDown\r\n   at System.Net.Http.HttpClient.CheckDisposed()\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Lab_4.Base.Teardown() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Base.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "13d40d792a994e719c485d920e87cde3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1654206812674,
+      "stop": 1654206812676
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1654206812674,
+  "stop": 1654206812676
+}

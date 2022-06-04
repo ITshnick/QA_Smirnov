@@ -1,0 +1,44 @@
+{
+  "uuid": "b4e54d04-6528-49ac-9c7a-0524b845be50-tc-0-1004",
+  "name": "Lab_4.CancelSpecialtyEditingTest.cancelSpecialtyEditingTest",
+  "children": [
+    "ed3138d4-942b-49c8-a968-c8c03fb529b4-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1654206901829,
+      "stop": 1654206901829
+    }
+  ],
+  "afters": [
+    {
+      "name": "Teardown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1654206901830,
+      "stop": 1654206901830
+    }
+  ],
+  "links": [],
+  "start": 1654206895185,
+  "stop": 1654206901861
+}

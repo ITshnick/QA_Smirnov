@@ -1,0 +1,149 @@
+{
+  "uuid": "35ebfd9c-1337-4be1-86bc-fe3ef68076ba-tr-0-1033",
+  "historyId": "Lr7.EditSpecialtyTest.EditSpecialty(\"test1\")",
+  "fullName": "Lr7.EditSpecialtyTest.EditSpecialty(\"test1\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr7"
+    },
+    {
+      "name": "testMethod",
+      "value": "EditSpecialty"
+    },
+    {
+      "name": "testClass",
+      "value": "EditSpecialtyTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "EditSpecialty(\"test1\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "EditSpecialty(\"test1\")"
+  },
+  "stage": "finished",
+  "description": "This test checks that specialty can be edited successfully\n",
+  "steps": [
+    {
+      "name": "EditSpecialty(\"test1\")",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499878612,
+          "stop": 1653499878713
+        },
+        {
+          "name": "Open specialty edit page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653499880730,
+          "stop": 1653499880869
+        },
+        {
+          "name": "Edit specialty",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test1"
+            }
+          ],
+          "start": 1653499880870,
+          "stop": 1653499881061
+        },
+        {
+          "name": "Check is name correct",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test1"
+            }
+          ],
+          "start": 1653499883076,
+          "stop": 1653499883121
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6de855c52dae4fda979280b1cc4afe86-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653499871704,
+      "stop": 1653499883188
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "test1"
+    }
+  ],
+  "start": 1653499871703,
+  "stop": 1653499883193
+}

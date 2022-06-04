@@ -1,0 +1,144 @@
+{
+  "uuid": "737dcb72-908c-408b-af16-b913e30418ea-tr-0-1011",
+  "historyId": "Lr6.EditPetTypeTest.EditPetType",
+  "fullName": "Lr6.EditPetTypeTest.EditPetType",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "TINA"
+    },
+    {
+      "name": "package",
+      "value": "Lr6"
+    },
+    {
+      "name": "testMethod",
+      "value": "EditPetType"
+    },
+    {
+      "name": "testClass",
+      "value": "EditPetTypeTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "EditPetType",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "EditPetType"
+  },
+  "stage": "finished",
+  "description": "This test checks that pet type can be edited successfully\n",
+  "steps": [
+    {
+      "name": "EditPetType",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496329706,
+          "stop": 1653496329830
+        },
+        {
+          "name": "Open pet type edit page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1653496331833,
+          "stop": 1653496331936
+        },
+        {
+          "name": "Edit pet type",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test1"
+            }
+          ],
+          "start": 1653496331937,
+          "stop": 1653496332130
+        },
+        {
+          "name": "Check is name correct",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "test1"
+            }
+          ],
+          "start": 1653496334145,
+          "stop": 1653496334168
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "23d335cfdf3747a7b7df7ea7e79eeaa0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1653496321894,
+      "stop": 1653496334271
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1653496321894,
+  "stop": 1653496334271
+}

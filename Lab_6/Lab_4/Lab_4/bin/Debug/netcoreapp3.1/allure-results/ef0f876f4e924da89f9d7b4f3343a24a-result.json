@@ -1,0 +1,88 @@
+{
+  "uuid": "e6b8c6e4-6ce3-4e70-bdb2-8eebef2cea93-tr-0-1001",
+  "historyId": "Lab_4.AddPetTypeTest.AddPetType",
+  "fullName": "Lab_4.AddPetTypeTest.AddPetType",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C9I6VLD"
+    },
+    {
+      "name": "testClass",
+      "value": "Lab_4.AddPetTypeTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddPetType"
+    },
+    {
+      "name": "package",
+      "value": "Lab_4.AddPetTypeTest"
+    },
+    {
+      "name": "suite",
+      "value": "Pet types"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "AddPetType",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "This test checks that pet type can be added successfully\n",
+  "steps": [
+    {
+      "name": "AddPetType",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open pet types page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1654207952286,
+          "stop": 1654207952361
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f71a1e1847b44ec2bc81d0d9d7d4f25c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1654207946582,
+      "stop": 1654207952931
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1654207946581,
+  "stop": 1654207952937
+}

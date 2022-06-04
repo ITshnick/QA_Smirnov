@@ -1,0 +1,97 @@
+{
+  "uuid": "ed3138d4-942b-49c8-a968-c8c03fb529b4-tr-0-1005",
+  "historyId": "Lab_4.CancelSpecialtyEditingTest.cancelSpecialtyEditingTest",
+  "fullName": "Lab_4.CancelSpecialtyEditingTest.cancelSpecialtyEditingTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-C9I6VLD"
+    },
+    {
+      "name": "testClass",
+      "value": "Lab_4.CancelSpecialtyEditingTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "cancelSpecialtyEditingTest"
+    },
+    {
+      "name": "package",
+      "value": "Lab_4.CancelSpecialtyEditingTest"
+    },
+    {
+      "name": "suite",
+      "value": "Specialties"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    }
+  ],
+  "links": [],
+  "name": "cancelSpecialtyEditingTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Lab_4.CancelSpecialtyEditingTest.cancelSpecialtyEditingTest() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Tests\\CancelSpecialtyEditingTest.cs:line 28\r\n"
+  },
+  "stage": "finished",
+  "description": "This test checks that specialty can be added successfully\n",
+  "steps": [
+    {
+      "name": "cancelSpecialtyEditingTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Lab_4.CancelSpecialtyEditingTest.cancelSpecialtyEditingTest() in D:\\ZTU\\4 курс\\ІІ семестро\\QA\\Lab_6\\Lab_4\\Lab_4\\Tests\\CancelSpecialtyEditingTest.cs:line 28\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Open specialties page",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1654206900880,
+          "stop": 1654206900946
+        }
+      ],
+      "attachments": [
+        {
+          "name": "cancelSpecialtyEditingTest_screenshot_637898145016459004.png",
+          "source": "4e91f18090cc44ec9b5f7bbb2754cccb-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "86e50b077c9c43b2a7a27343c009894c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1654206895187,
+      "stop": 1654206901831
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1654206895187,
+  "stop": 1654206901837
+}
